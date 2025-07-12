@@ -5,7 +5,7 @@ const request = supertest(app);
 
 describe('/testnode endpoint', () => {
   it('should return a response', async () => {
-    const response = await request.get('/testNode');
+    const response = await request.get('/testnode');
     expect(response.status).toBe(200);
     expect(response.text).toBe('Yes the testnode endpoint is working');
  });

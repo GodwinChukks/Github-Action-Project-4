@@ -379,6 +379,18 @@ This repository uses a GitHub Actions workflow to:
 
 8
 
+### Navigating into the project folder and install app dependencies
+
+`npm install`
+
+`pm2 start index.js --name node-backend`
+
+9
+
+10
+
+
+
 
 
 

@@ -1,5 +1,5 @@
 {
-  "name": "github-action-project-4",
+  "name": "github-action-project-3",
   "version": "1.0.0",
   "description": "NodeJS CI pipeline with GitHub Actions matrix build, linting, and code analysis",
   "main": "index.js",
