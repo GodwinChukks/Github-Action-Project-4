@@ -347,37 +347,37 @@ This repository uses a GitHub Actions workflow to:
 
 ### Creating environment where application will be hosted. In this example I shall be hosting my nodejs app on AWS EC2 instance.
 
-1
+![image](screenshot/1.PNG)
 
 ### Envronment secrets and variables
 
-2
+![image](screenshot/2.PNG)
 
 ### Security group setup. I open port 3000 because that is where our app will be listening to and port 22 for ssh access
 
-3
+![image](screenshot/3.PNG)
 
 ### S3 Bucket Set
 
-4
+![image](screenshot/4.PNG)
 
 ### Successfully ssh into the app server
 
-5
+![image](screenshot/5.PNG)
 
 ### Updating and installing dependencies on our app server
 
-6
+![image](screenshot/6.PNG)
 
 ## Step 2: Setting up App Directory
 
 ### Creating our app folder and navigating into the app folder
 
-7
+![image](screenshot/7.PNG)
 
 ### Cloning our app repository into the app server
 
-8
+![image](screenshot/8.PNG)
 
 ### Navigating into the project folder and install app dependencies
 
@@ -385,9 +385,29 @@ This repository uses a GitHub Actions workflow to:
 
 `pm2 start index.js --name node-backend`
 
-9
+![image](screenshot/9.PNG)
 
-10
+![image](screenshot/10.PNG)
+
+![image](screenshot/11.PNG)
+
+![image](screenshot/12.PNG)
+
+### Successful deployment of our application to aws ec2 instance
+
+![image](screenshot/13.PNG)
+
+### successful build and deployment
+
+![image](screenshot/14.PNG)
+
+![image](screenshot/15.PNG)
+
+![image](screenshot/16.PNG)
+
+### Succssful deployment to AWS S3 Bucket
+
+![image](screenshot/17.PNG)
 
 
 
